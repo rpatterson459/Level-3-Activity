@@ -1,0 +1,82 @@
+main {
+    display: flex;
+    font-family: sans-serif;
+    padding: 2em; }
+    :root {
+        --primary: rgba(43, 91, 186, 0.6);
+        --light: rgb(255, 255, 255);
+        --greyish: rgb(116 121 129 / 80%);
+      }
+      
+    body {
+        background-color: rgb(255, 255, 255);
+      }
+
+      p {
+          font-size: large;
+      }
+
+      #opacity {
+          opacity: .50;
+      }
+      .resume, .Experiences{
+          max-width: 70vw;
+      }
+
+      aside {
+    color: white;
+    right: 200px;
+}
+
+.Experiences{
+    margin-top: 10em;
+}
+
+.aside{
+    position: absolute;
+    top: 3.5%;
+    right: 5%;
+}
+
+h2 {
+    color: #809DD6;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: .5em;
+}
+h3 {
+    font-weight: 700;
+}
+.img-container {
+    height: 25em;
+    width: 25em;
+    background-color: #809DD6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img{
+height: auto;
+margin: 0;
+padding: 0;
+}
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30% 
+    
+}
+.info{
+    margin-top: 3em;
+    padding-left: 1em;
+    margin-bottom: -7em;
+}
+.contact {
+        background-color: #A1B4DA;
+        padding: 1em 2em;
+    }
+    
+        li {
+            padding: .25em;
+            display: flex;}   
